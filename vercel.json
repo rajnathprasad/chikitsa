@@ -1,12 +1,12 @@
 {
   "builds": [
     {
-      "src": "chikitsa/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
-      "config": {
-        "distDir": "chikitsa/dist"
-      }
+      "config": { "distDir": "dist" }
     }
   ],
-  "outputDirectory": "chikitsa/dist"
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
