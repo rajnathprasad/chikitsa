@@ -5,7 +5,6 @@ import { Input } from "./ui/input";
 import { Badge } from "./ui/badge";
 import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
-import { DarkModeToggle } from "./DarkModeToggle";
 import { 
   Heart,
   LogOut,
@@ -158,12 +157,7 @@ export function CitizenDashboard({ onSignOut }: CitizenDashboardProps) {
               </div>
               
               <div className="flex items-center space-x-4">
-                {onToggleDarkMode && (
-                  <DarkModeToggle 
-                    isDarkMode={isDarkMode} 
-                    onToggle={onToggleDarkMode} 
-                  />
-                )}
+                
                 <Badge variant="secondary" className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
                   ABHA Verified
                 </Badge>
