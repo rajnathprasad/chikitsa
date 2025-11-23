@@ -1,11 +1,9 @@
-🏥 Chikitsa — Smart Hospital Management System (Frontend)
+🏥 Chikitsa — The Future of Healthcare
 
 🔗 Live Website: https://chikitsa-ruby.vercel.app/
 
-🎬 Demo Video: https://youtu.be/yFztV-7ZLMQ
+🎬 Idea behind Chikitsa: https://youtu.be/yFztV-7ZLMQ
 
-Chikitsa is a modern and responsive Hospital Management System (HMS) frontend built using React, TypeScript, and Vite.
-It provides a clean, intuitive interface for citizens, hospitals, doctors, and blood banks.
 
 🚀 Modules Included
 
@@ -86,16 +84,6 @@ build/ (or dist/ depending on your Vite configuration)
 🌐 Deployment
 
 This project is deployed on Vercel using a vercel.json configuration for SPA routing and output directory handling.
-
-Live site:
-https://chikitsa-ruby.vercel.app/
-
-🎥 Video Demonstration
-
-Full walkthrough video:
-https://youtu.be/yFztV-7ZLMQ
-
-
 
 UI powered by ShadCN + Radix UI
 
